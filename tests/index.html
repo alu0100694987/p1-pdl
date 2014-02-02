@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mocha.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    
+  </head>
+  
+  <body>
+  
+    <div id="mocha"></div>
+    
+    <script src="mocha.js"></script>
+    <script src="chai.js"></script>
+    <script src="../temperature.js"></script>
+    <script>mocha.setup('tdd')</script>
+    <script src="tests.js"></script>
+    
+    <script>
+      mocha.run();
+    </script>
+    
+   <div id="title">
+      <h1>Conversor de Temperaturas</h1>
+    </div>
+    
+    <div id="converter">
+      <table>
+        <tr>
+          <th>Indique la temperatura:</th>
+          <td><input id="original" onchange="calculate();" placeholder="45C, -2.5f, 32F" ></td>
+        </tr>
+        <tr>
+          <th>Temperatura convertida:</th>
+          <td><span id="converted" class="output"></span></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  
+</html>
