@@ -18,12 +18,12 @@ function calculate() {
     
     if (type == 'c' || type == 'C') {
       result = (num * 9/5)+32;
-      result = result + " ºF";
+      result = result + " Fahrenheit";
     }
     
     else {
       result = (num - 32)*5/9;
-      result = result + " ºC";
+      result = result + " Celsius";
     }
     
     converted.innerHTML = result;
