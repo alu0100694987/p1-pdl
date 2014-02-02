@@ -1,1 +1,43 @@
-My GitHub Page
+<!DOCTYPE HTML>
+<!--
+  Procesadores de Lenguajes
+  Práctica: Conversor de Temperaturas
+  
+  Cristo González Rodríguez - alu0100694987
+-->
+<html>
+  
+  <head>
+  
+    <title>Conversor de Temperaturas - JavaScript</title>
+    <meta name="Author" content="Cristo González Rodríguez - alu0100694987" />  
+    <meta name="Description" content="Conversor de temperaturas en JavaScript" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="temperature.js"></script>
+    
+  </head>
+  
+  <body>
+  
+    <div id="title">
+      <h1>Conversor de Temperaturas</h1>
+    </div>
+    
+    <div id="converter">
+      <table>
+        <tr>
+          <th>Indique la temperatura:</th>
+          <td><input id="original" onchange="calculate();" placeholder="45C, -2.5f, 32F" ></td>
+        </tr>
+        <tr>
+          <th>Temperatura convertida:</th>
+          <td><span id="converted" class="output"></span></td>
+        </tr>
+      </table>
+    </div>
+    
+  </body>
+  
+</html>
