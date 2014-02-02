@@ -1,0 +1,42 @@
+
+/* General */
+ 
+  body {
+    background-color: #71ADFF;
+  }
+  
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+  }
+  
+  th, td { 
+    vertical-align: top; text-align: right;
+  }
+  
+  input {
+    margin-left: 15px;
+    text-align: right;  
+    border: none;
+  }
+
+/* Capas */
+
+  #title {
+    margin: 40px;
+    text-align: left;
+  }
+  
+  #converter {
+    margin-left: 90px;
+    font-family: Cursive;
+    font-size: 18px;
+  }
+
+/* Resultado */
+
+  #converted { 
+    color: red; 
+    font-size: 16px;
+    margin-left: 15px;
+  }
